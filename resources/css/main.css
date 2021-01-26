@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  text-transform: capitalize;
+  color: #333;
+}
+
+.container {
+  margin: auto;
+  padding: 3rem;
+  max-width: 80rem;
+}
+
+.btn {
+  display: block;
+  padding: 2rem;
+  margin-top: 2rem;
+  background: #c0df34;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  border-radius: 1rem;
+}
+
+.card .container {
+  margin-top: 20vh;
+}
+
+.card .content {
+  overflow: hidden;
+  background: #fff;
+  border-radius: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.card__header {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 4rem;
+}
+
+.card__header--heading-primary {
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+  color: #2bb3b1;
+}
+
+.card__header--heading-secondary {
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+  color: #c0df34;
+}
+
+.card__header--praagraph {
+  font-size: 1.5rem;
+  color: #98a6bd;
+  font-weight: 400;
+}
+
+.card__footer {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+.card__footer--left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 4rem;
+  background-color: #2bb3b1;
+}
+
+.card__footer--right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 4rem;
+  background-color: #4abebd;
+}
+
+.card__footer--right p {
+  width: 75%;
+}
+
+.card__footer--heading-primary {
+  margin-bottom: 2rem;
+}
+
+.card__footer--heading-secondary {
+  margin-bottom: 1rem;
+  font-size: 4rem;
+}
+
+.card__footer--heading-secondary span {
+  color: #e5eff5;
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+.card__footer--praagraph {
+  font-weight: 400;
+}
+
+@media (max-width: 60rem) {
+  .card .container {
+    margin-top: 0;
+  }
+  .card__footer {
+    -webkit-box-flex: 2;
+        -ms-flex: 2;
+            flex: 2;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+body {
+  background: #e5eff5;
+}
+/*# sourceMappingURL=main.css.map */

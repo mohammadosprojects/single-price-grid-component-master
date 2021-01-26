@@ -1,0 +1,76 @@
+.card {
+  .container {
+    margin-top: 20vh;
+  }
+  .content {
+    overflow: hidden;
+    background: $color-wight;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__header {
+    flex: 1;
+    padding: 4rem;
+
+    &--heading-primary {
+      font-size: 2.4rem;
+      margin-bottom: 1rem;
+      color: $color-1;
+    }
+
+    &--heading-secondary {
+      font-size: 1.6rem;
+      margin-bottom: 0.5rem;
+      color: $color-2;
+    }
+
+    &--praagraph {
+      font-size: 1.5rem;
+      color: $color-4;
+      font-weight: 400;
+    }
+  }
+
+  &__footer {
+    flex: 1;
+    display: flex;
+    font-size: 1.6rem;
+    color: $color-wight;
+
+    &--left {
+      flex: 1;
+      padding: 4rem;
+      background-color: $color-1;
+    }
+
+    &--right {
+      flex: 1;
+      padding: 4rem;
+      background-color: $color-5;
+      p {
+        width: 75%;
+      }
+    }
+
+    &--heading-primary {
+      margin-bottom: 2rem;
+    }
+
+    &--heading-secondary {
+      margin-bottom: 1rem;
+      font-size: 4rem;
+
+      span {
+        color: $color-3;
+        font-size: 1.4rem;
+        font-weight: 300;
+      }
+    }
+
+    &--praagraph {
+      font-weight: 400;
+    }
+  }
+}
